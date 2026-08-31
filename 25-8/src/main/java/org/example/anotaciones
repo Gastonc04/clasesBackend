@@ -1,0 +1,7 @@
+Cuando una funcion llama a la otra consecutivamente, se hace lo que se llama una "Pila de llamada"
+Nunca poner un catch vacio.
+Toda clase en Java hereda de object.
+Cuando creo un objeto Empleado, se crea primero object -> ...(clases de por medio) -> Empleado.
+Con super, llamo al constructor de arriba.
+Try with resources. Util para BD. Procesamiento de archivos.
+ctrl+shift+t sobre el nombre de la clase seleccionado para crear una clase test de esa misma clase.
