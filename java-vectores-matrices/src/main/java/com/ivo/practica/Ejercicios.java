@@ -1,5 +1,7 @@
 package com.ivo.practica;
 
+import java.util.Random;
+
 /**
  * Resolvé cada método sin modificar su firma.
  * Los tests unitarios sirven como especificación del comportamiento esperado.
@@ -115,12 +117,28 @@ public final class Ejercicios {
 
     /** Ejercicio 9: devolver la matriz transpuesta. */
     public static int[][] transponer(int[][] matriz) {
-        throw new UnsupportedOperationException("Ejercicio 9 pendiente");
+        int i,j;
+        int[][] transpuesta = new int[matriz[0].length][matriz.length];
+        for (i = 0; i < matriz.length; i++) {
+            for (j = 0; j < matriz[i].length; j++) {
+                transpuesta[j][i] = matriz[i][j];
+            }
+        }
+        return transpuesta;
     }
 
     /** Ejercicio 10: obtener el valor máximo de toda la matriz. */
     public static int maximoMatriz(int[][] matriz) {
-        throw new UnsupportedOperationException("Ejercicio 10 pendiente");
+        int i,j;
+        int may = 0;
+        for (i = 0 ; i < matriz.length; i++) {
+            for (j = 0 ; j < matriz[i].length; j++) {
+                if (matriz[i][j] > may) {
+                    may = matriz[i][j];
+                }
+            }
+        }
+        return may;
     }
 
     // =========================
@@ -132,7 +150,20 @@ public final class Ejercicios {
      * Tip: Random o ThreadLocalRandom y min + nextInt(max - min + 1).
      */
     public static int[] generarVectorAleatorio(int n, int minInclusive, int maxInclusive) {
-        throw new UnsupportedOperationException("Ejercicio 11 pendiente");
+        if (minInclusive > maxInclusive) {
+            throw new IllegalArgumentException("El minimo no puede ser mayor al maximo");
+        }
+        if (n<=0) {
+            throw new IllegalArgumentException("No puede haber un vector con " + n + " indices");
+        }
+
+        int[] vector = new int[n];
+        Random random = new Random();
+
+        for (int i = 0; i < vector.length; i++) {
+            vector[i] = random.nextInt(minInclusive, maxInclusive + 1);
+        }
+        return vector;
     }
 
     /**

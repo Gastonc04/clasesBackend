@@ -9,8 +9,15 @@
         <option value="$PROJECT_DIR$/proy/pom.xml" />
         <option value="$PROJECT_DIR$/25-8/pom.xml" />
         <option value="$PROJECT_DIR$/1-9/pom.xml" />
+        <option value="$PROJECT_DIR$/herencia-coleccion/untitled/pom.xml" />
+        <option value="$USER_HOME$/Descargas/herencia-coleccion/herencia-coleccion/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$USER_HOME$/Descargas/herencia-coleccion/herencia-coleccion/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="homebrew-26" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK" />
 </project>
