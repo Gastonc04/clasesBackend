@@ -87,6 +87,11 @@ public final class Ejercicios {
     /** Ejercicio 7: sumar todos los valores de la fila indicada. */
     public static int sumarFila(int[][] matriz, int fila) {
         int suma = 0;
+
+        // Manejo de excepecion
+        if (fila < 0 || fila >= matriz.length) {
+            throw new IllegalArgumentException("Indice de fila fuera de rango");
+        }
         for (int j = 0; j < matriz[fila].length; j++) {
             suma += matriz[fila][j];
         }
@@ -95,15 +100,17 @@ public final class Ejercicios {
 
     /** Ejercicio 8: devolver los elementos de la diagonal principal. */
     public static int[] diagonalPrincipal(int[][] matriz) {
-        int[] elementos = new int 
-        int i,j;
-        int suma = 0;
+        int[] diagonal = new int[matriz.length]; // Lo primero crea la clase y lo segundo crea el objeto con el largo de la lista
+        int i,j; // Inicializo las filas y columnas
         for (i = 0; i < matriz.length; i++) {
             for (j = 0; j < matriz[i].length; j++) {
-                suma += matriz[i][j];
+                if (i == j) {
+                    diagonal[i] = matriz[i][j];
+                }
             }
         }
-        return suma;
+
+        return diagonal;
     }
 
     /** Ejercicio 9: devolver la matriz transpuesta. */
