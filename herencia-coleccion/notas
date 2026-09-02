@@ -1,0 +1,14 @@
+modificadores static, final y abstract
+
+static: que no pertenezca a la instancia, sino a la clase.
+Se cargan en el momento de ejecutar la aplicacion.
+
+final: limita y restringe la modificacion de una entidad una vex fue declarada o inicializada.
+
+abstract: define metodos o clases incompletas que se van a terminar de implementar en las clases hijas.
+
+una clase puede implementar todas las interfaces que quiera.
+
+String es una clase inmutable. Pero se puede reemplazar por otro valor.
+
+Clases parametrizadas: con un parametro e

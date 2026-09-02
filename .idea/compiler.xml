@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="26-8" />
         <module name="25-8" />
+        <module name="herencia-coleccion" />
         <module name="1-9" />
-        <module name="practica-vectores-matrices" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
