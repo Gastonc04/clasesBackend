@@ -1,0 +1,6 @@
+public interface Lista: Es el contrato de los metodos que puede hacer.
+
+Que pasa si concateno sumando cadenas?
+Estoy creando un string nuevo. Termino consumiendo la memoria.
+
+Clase interna: Una clase dentro de otra.
