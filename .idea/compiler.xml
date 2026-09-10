@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="8-9" />
+        <module name="9-9" />
         <module name="26-8" />
         <module name="25-8" />
         <module name="herencia-coleccion" />
