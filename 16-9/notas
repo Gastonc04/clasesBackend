@@ -17,3 +17,7 @@ A los fines practicos, utilizaremos Spring Data, necesitaremos:
 - Driver que utilzaremos.
 - Direccion de la BD (Establecer la conexion).
 - Realizacion de consultas.
+
+Usar privateState y query parametrizada para evitar inyeccion en BD.
+
+ORM: Mapeo de Objetos Relacionales
