@@ -1,0 +1,19 @@
+BD Relacionales
+
+Hay muchas alternativas.
+Usaremos PostgreSQL y H2. H2 tiene modo embebido y modo servidor. PostgreSQL para el TP.
+
+En terminal ejecutamos h2.
+
+jdbc:h2:mem:nombre
+- jdbc debe estar si o si. Es la capa para conectarse a la BD por API.
+- mem es memoria.
+- Puede indicarse la direccion tcp://localhost/.
+- h2 puede ser o postgresql (se selecciona el motor)
+
+Tipos de driver de jdbc. Hay 4, el mas usado es el tipo 4.
+
+A los fines practicos, utilizaremos Spring Data, necesitaremos:
+- Driver que utilzaremos.
+- Direccion de la BD (Establecer la conexion).
+- Realizacion de consultas.

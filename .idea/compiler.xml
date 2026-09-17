@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="8-9" />
         <module name="9-9" />
+        <module name="16-9" />
+        <module name="streams" />
         <module name="26-8" />
         <module name="25-8" />
         <module name="herencia-coleccion" />
