@@ -1,0 +1,17 @@
+APUNTE 14
+
+Las APIs se identifican por URI utilizando el protocolo HTTP y proveen una documentacion de como se utilizan.
+
+URI es un identificador unico.
+
+Idempotencia: GET, PUT DELETE son idempotentes ya que al realizar multiples solicitudes no deberia cambiar
+la solicitud de estado luego de la primera hecha. Si hago delete una vez, al hacerlo de nuevo no deberia tener efecto.
+
+Post se puede volver idempotente si le pasamos un parametro. Mando el mismo transaction id.
+
+En la documentacion debemos incluir todas las APIs.
+
+APUNTE 15
+
+Spring Data: Modulo para consultas SQL.
+
