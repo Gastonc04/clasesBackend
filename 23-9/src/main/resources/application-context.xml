@@ -1,0 +1,7 @@
+
+
+
+<bean id="service" class="org.springframework.example.services.ServiceImpl">
+    <property name="itemData" ref="itemData"></property>
+</bean>
+

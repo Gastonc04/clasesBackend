@@ -1,0 +1,7 @@
+Bean: Es una instancia de una clase que va a controlar sprint.
+
+Spring detecta el contexto.
+
+Antes se hacia con application-context.xml, ya no.
+
+Spring controla toda clase que haya con @Service, @Component, etc.
