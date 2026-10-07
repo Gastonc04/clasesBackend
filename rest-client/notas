@@ -1,0 +1,5 @@
+Capa repositorio: Acceso a bases de datos. Transformacion entre BD y el dominio.
+
+Los sistemas en algun momento deben tener servicios externos. API Externas.
+Tambien se tiene en cuenta para servicios internos. API Internas.
+

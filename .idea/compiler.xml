@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,6 +10,7 @@
         <module name="8-9" />
         <module name="9-9" />
         <module name="16-9" />
+        <module name="streams" />
         <module name="26-8" />
         <module name="25-8" />
         <module name="herencia-coleccion" />
@@ -17,7 +19,7 @@
         <module name="2-9" />
         <module name="practica-vectores-matrices" />
       </profile>
-      <profile name="Annotation profile for spring-data" enabled="true">
+      <profile name="Annotation profile for rest-client" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -26,6 +28,16 @@
         </processorPath>
         <module name="spring-data" />
       </profile>
+      <profile name="Annotation profile for 6-10" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="6-10" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="untitled" target="21" />
@@ -33,6 +45,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="6-10" options="-parameters" />
       <module name="spring-data" options="-parameters" />
     </option>
   </component>
